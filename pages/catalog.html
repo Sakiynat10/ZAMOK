@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/home.min.css" />
+    <link rel="stylesheet" href="../css/catalog.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" defer src="../js/main.js"></script>
+    <script type="module" defer src="../js/catalog.js"></script>
+  </head>
+  <body>
+
+    <!--Loading-->
+    <div class="loading"></div>
+
+    <!--toggle-->
+    <div class="toggle-nav none">
+      <button class="close-toggle-btn">
+        <img src="../images/closee.svg" alt="close svg" />
+      </button>
+      <ul>
+        <li>
+          <a href="../index.html">Главная</a>
+        </li>
+        <li>
+          <a href="#"
+            >Каталог
+            <img src="../images/down.svg" alt="down svg" />
+          </a>
+        </li>
+        <li>
+          <a href="#">Оптовая продажа</a>
+        </li>
+        <li>
+          <a href="#">О нас</a>
+        </li>
+        <li class="toggle-phone">
+          <img class="phone-img" src="../images/phone.svg" alt="phone svg" />
+          <p class="number">+7 (966) 55 88 499</p>
+        </li>
+      </ul>
+    </div>
+    <!--/ toggle-->
+
+    <!--Navbar-->
+    <nav>
+      <div class="top-nav">
+        <div class="top-container container">
+          <p class="top-header-title">
+            Скидка 10% по промокоду “ZAMOK” на все заказы до 10.09
+          </p>
+          <a href="#">Обратный звонок</a>
+        </div>
+      </div>
+      <div class="main-nav">
+        <div class="main-container container">
+            <div class="main-nav-left">
+                <a href="../index.html">
+                <img src="../images/logo.svg" alt="logo svg" />
+                </a>
+                <ul>
+                <li>
+                    <a href="../index.html">Главная</a>
+                </li>
+                <li>
+                    <a href="#"
+                    >Каталог
+                    <img src="../images/down.svg" alt="down svg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Оптовая продажа</a>
+                </li>
+                <li>
+                    <a href="#">О нас</a>
+                </li>
+                </ul>
+            </div>
+            <div class="main-nav-right">
+                <img class="phone-img" src="../images/phone.svg" alt="phone svg" />
+                <p class="number">+7 (966) 55 88 499</p>
+                <a href="#">
+                <img src="../images/heart.svg" alt="heart svg" />
+                </a>
+                <a href="#">
+                <img src="../images/corzina.svg" alt="corzina svg" />
+                </a>
+                <button class="menu-btn">
+                <img src="../images/menu.svg" alt="" />
+                </button>
+            </div>
+        </div>
+      </div>
+    </nav>
+    <!--/ Navbar-->
+
+    <main>
+      <section id="product">
+        <div class="product-container container">
+          
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container container">
+        <ul class="footer-logos">
+          <li>
+            <a href="../index.html">
+              <img
+                class="footer-logo"
+                src="../images/footer-logo.svg"
+                alt="footer logo"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://asilbekxoliyorov.com">
+              <img src="../images/wella.svg" alt="wella svg" />
+            </a>
+            <a href="https://asilbekxoliyorov.com">
+              <img src="../images/twitter.svg" alt="twitter svg" />
+            </a>
+            <a href="https://asilbekxoliyorov.com">
+              <img src="../images/facebook.svg" alt="facebook svg" />
+            </a>
+          </li>
+        </ul>
+        <div class="footer-infos">
+          <ul>
+            <h3>Навигация</h3>
+            <li>
+              <a href="../index.html">Главная</a>
+            </li>
+            <li>
+              <a href="../pages/catalog.html">Каталог</a>
+            </li>
+            <li>
+              <a href="#">Оптовая продажа</a>
+            </li>
+            <li>
+              <a href="#">О нас</a>
+            </li>
+          </ul>
+          <ul>
+            <h3>Наши контакты</h3>
+            <li>
+              <span>Телефоны</span>
+            </li>
+            <li>
+              <a href="#">+7 (988) 565 00 38</a>
+            </li>
+            <li>
+              <a href="#">+375 33 662 82 56</a>
+            </li>
+            <li>
+              <span>Email</span>
+            </li>
+            <li>
+              <a href="../pages/catalog.html">vladpertcev@mail.ru</a>
+            </li>
+            <li>
+              <a href="../pages/catalog.html">vladpertcev@mail.ru</a>
+            </li>
+          </ul>
+          <ul>
+            <h3>Наш адрес</h3>
+            <li>
+              <a href="../index.html">Россия, </a>
+            </li>
+            <li>
+              <a href="../pages/catalog.html"> Ростов-на-Дону ул.</a>
+            </li>
+            <li>
+              <a href="#">Богачева, 16</a>
+            </li>
+          </ul>
+          <ul>
+            <h3>информация</h3>
+            <li>
+              <a href="../index.html">Доставка и оплата</a>
+            </li>
+            <li>
+              <a href="../pages/catalog.html">Гарантии</a>
+            </li>
+            <li>
+              <a href="#">Возврат товара</a>
+            </li>
+            <li>
+              <a href="#">О нас</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom container">
+        <span></span>
+        <p>© 2021 Golden Soft All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
