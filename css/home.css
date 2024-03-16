@@ -818,3 +818,7 @@ footer .footer-bottom p {
   text-align: center;
   color: rgba(255, 255, 255, 0.6117647059);
 }
+
+p {
+  line-height: 26px !important;
+}
