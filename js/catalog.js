@@ -16,17 +16,16 @@ console.log(product);
 
 
 
-function getProduction({title , description , discountPercentage ,images ,price , }) {
+function getProduction({title ,category , rating , stock , brand , description , discountPercentage ,images ,price }) {
   return `
-  <img class="product-card" src=${images[0]} alt="key image" />
+  <img class="product-card" src=${images[2]} alt="key image" />
   <div class="product-info">
     <h1>${title}</h1>
     <p class="info-title">
       ${description}
     </p>
     <p class="info-title">
-      Odio felis sit leo, massa, mauris, at pulvinar ultrices. Eu
-      porttitor molestie massa
+      Category:${category};  Brand:${brand} ; Rating:${rating}; Stock:${stock};
     </p>
     <span class="price">Price</span>
     <div class="product-price">

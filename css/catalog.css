@@ -67,3 +67,6 @@ body #product .product-container button {
   border: none;
   border-radius: 4px;
 }
+body p {
+  line-height: 48px !important;
+}
